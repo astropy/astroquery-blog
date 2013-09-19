@@ -6,7 +6,7 @@ SITENAME = u"Astroquery Blog"
 SITESUBTITLE = u"Releases and examples related to astroquery"
 #SITEURL = 'file://localhost/Volumes/disk5/Users/adam/repos/blog/output'
 #SITEURL = ""
-SITEURL = 'http://astropy.org/astroquery-blog/
+SITEURL = 'http://astropy.org/astroquery-blog/'
 
 TIMEZONE = 'America/Denver'
 PATH = "content/"
