@@ -3,7 +3,7 @@
 &lt;p&gt;Astroquery's first beta release coincided with the .Astronomy 5 conference, at
 which a large group of early adopters have tested and contributed to the code
 base.  Within 2 days of the release, we added a new module (&lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/gama.html"&gt;GAMA&lt;/a&gt;, by &lt;a class="reference external" href="https://twitter.com/j_t_allen"&gt;&amp;#64;j_t_allen&lt;/a&gt;) and added a
-&lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/simbad.html#query-based-on-any-criteria"&gt;new tool&lt;/a&gt; to SIMBAD to enable &lt;a class="reference external" href="http://simbad.u-strasbg.fr/simbad/sim-fsam"&gt;criteria queries&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/simbad.html#query-based-on-any-criteria"&gt;new tool&lt;/a&gt; to SIMBAD to enable &lt;a class="reference external" href="http://simbad.u-strasbg.fr/simbad/sim-fsam"&gt;criteria queries&lt;/a&gt;; &lt;a class="reference external" href="https://twitter.com/cosmicpudding"&gt;&amp;#64;cosmicpudding&lt;/a&gt; showed it in action &lt;a class="reference external" href="http://prezi.com/hrx762vxv2dy/skyview-a-tip-of-the-iceberg-hack/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Astroquery development will continue rapidly.  We have the twitters
 (&lt;a class="reference external" href="https://twitter.com/astroquerypy"&gt;&amp;#64;astroquerypy&lt;/a&gt;) and an e-mail address (&lt;a class="reference external" href="mailto:astropy.astroquery&amp;#64;gmail.com"&gt;astropy.astroquery&amp;#64;gmail.com&lt;/a&gt;).
 We welcome feedback, including suggestions and contributed code.&lt;/p&gt;
