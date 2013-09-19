@@ -5,6 +5,6 @@ which a large group of early adopters have tested and contributed to the code
 base.  Within 2 days of the release, we added a new module (&lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/gama.html"&gt;GAMA&lt;/a&gt;) and added a
 &lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/simbad.html#query-based-on-any-criteria"&gt;new tool&lt;/a&gt; to SIMBAD to enable &lt;a class="reference external" href="http://simbad.u-strasbg.fr/simbad/sim-fsam"&gt;criteria queries&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Astroquery development will continue rapidly.  We have the twitters
-(&lt;a class="reference external" href="https://twitter.com/astroquerypy"&gt;&amp;#64;astroquerypy&lt;/a&gt;) and an e-mail address (&lt;cite&gt;astropy.astroquery&amp;#64;gmail.com&lt;/cite&gt;),
+(&lt;a class="reference external" href="https://twitter.com/astroquerypy"&gt;&amp;#64;astroquerypy&lt;/a&gt;) and an e-mail address (&lt;a class="reference external" href="mailto:astropy.astroquery&amp;#64;gmail.com"&gt;astropy.astroquery&amp;#64;gmail.com&lt;/a&gt;),
 so we welcome feedback and suggestions.&lt;/p&gt;
 </summary><category term="release"></category><category term="beta"></category></entry></feed>
