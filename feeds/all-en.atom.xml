@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Astroquery Blog</title><link href="http://astropy.org/astroquery-blog/" rel="alternate"></link><link href="http://astropy.org/astroquery-blog//feeds/all-en.atom.xml" rel="self"></link><id>http://astropy.org/astroquery-blog/</id><updated>2013-09-18T00:00:00-06:00</updated><entry><title>Beta Release</title><link href="http://astropy.org/astroquery-blog/beta-release.html" rel="alternate"></link><updated>2013-09-18T00:00:00-06:00</updated><author><name>Adam Ginsburg (keflavich@gmail.com)</name></author><id>tag:astropy.org/astroquery-blog,2013-09-18:beta-release.html</id><summary type="html">&lt;p&gt;Astroquery has been released in beta as of September 15th, 2013.&lt;/p&gt;
+&lt;p&gt;Astroquery's first beta release coincided with the .Astronomy 5 conference, at
+which a large group of early adopters have tested and contributed to the code
+base.  Within 2 days of the release, we added a new module (&lt;a class="reference external" href="http://astroquery.readthedocs.org/en/latest/gama.html"&gt;GAMA&lt;/a&gt;) and added a
+new toolkit to SIMBAD&lt;/p&gt;
+</summary><category term="release"></category><category term="beta"></category></entry></feed>

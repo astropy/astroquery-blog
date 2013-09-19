@@ -1,0 +1,1322 @@
+@import url("pygment.css");
+body {
+	background-color: #292929;
+	color: white;
+	font-style: normal;
+	font-family: "Times New Roman";
+    /*font-family : monospace ;*/
+    font-size: 100% ;
+	/*font-size: 15px;*/
+    /* background-color : white ;
+    color : #111 ; */
+    /*width : 80% ;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding : 1em ;
+    /*margin : 5% 10% ;*/
+}
+
+div#content {
+    border : thin solid gray ;
+    border-radius : 5px ;
+    display : block ;
+    max-width : 85%;
+    /*width: 850px;*/
+    min-width : 800px ;
+    min-height : 200px ;
+    vertical-align: middle;
+    /* for centering: */
+    margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+}
+
+div#header {
+    max-width : 850px;
+    min-width : 80ex ;
+    /* for centering: */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header#banner {
+    max-width : 850px;
+    min-width : 80ex ;
+    /* for centering: */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link    { color : blue ; text-decoration : none ;      }
+a:hover   { color : blue ; text-decoration : underline ; }
+a:visited { color : blue ;                               }
+
+h1 a { color : #222222; }
+h2 a { color : #222222; }
+h3 a { color : #222222; }
+h4 a { color : #222222; }
+h5 a { color : #222222; }
+h6 a { color : #222222; }
+
+h1 { font-size: 250%; }
+h2 { font-size: 225%; }
+h3 { font-size: 200%; }
+h4 { font-size: 175%; }
+h5 { font-size: 150%; }
+h6 { font-size: 125%; }
+
+pre {
+    margin : 2em 1em 2em 4em ;
+}
+
+#menu li {
+    display : inline ;
+}
+
+#post-list {
+    margin-bottom : 1em ;
+    margin-top : 1em ;
+}
+
+
+
+table {
+    background-color: #222222;
+    border-style: inset outset outset inset;
+    border-width: 5;
+    border-color: #222222;
+    color: white;
+    font-style: normal;
+   	font-family: "Times New Roman";
+	/*font-size:15px;*/
+}
+
+
+td {
+    background-color: #090909;
+    border-style: none;
+    border-width: 0;
+    color: white;
+    font-style: normal;
+   	font-family: "Times New Roman";
+	/*font-size:15px;*/
+}
+
+p {
+    /* background-color: #090909; */
+    color: white;
+    font-style: normal;
+	font-family: "Times New Roman";
+	/*font-size:15px;*/
+}
+
+
+div {
+    background-color: #292929;
+    color: white;
+	font-family: "Times New Roman";
+	font-style: normal;
+	/*font-size:15px;*/
+}
+
+/* tt { color:yellow } */
+tt {color:#55ECA9}
+
+
+/* Link Style */
+a:link		{ color:cyan;  }
+a:visited	{ color:cyan;  }
+/* a:visited	{ color:blue }*/
+a:active	{ color:cyan; text-shadow: none }
+a:hover		{ color:cyan }
+a {text-decoration: none; }
+
+/* http://stackoverflow.com/questions/8290447/remove-horizontal-spacing-when-using-positionrelative-in-navigation-bar */
+/* a.navbar { position:relative; left:-20px; right: 20px;} */
+a.navbar:link	 { color:#AAAAFF; text-shadow:none; padding: 5px 0px; white-space:nowrap; /*font-size:15px;*/}
+a.navbar:visited { color:#AAAAFF; }
+a.navbar:hover	 { color:#CCCCCC; background: rgba(68,68,136,0.5);  } /* #444488 font-weight: bold;} */
+a.navbar:active	 { color:grey; } /* font-weight: bold;} */
+a.navbar {padding:none; /*font-size:15px;*/}
+a.navbar:before {content:'['; display:inline; /*font-size:25pt;*/ color:white; position:relative; left:-3px; top:3.5px}
+a.navbar:after {content:']'; display:inline; /*font-size:25pt;*/ color:white; position:relative; right:-3px; top:3.5px}
+
+nav a:link    { color:#AAAAFF; text-decoration:none; 
+            background-color: rgba(21,21,21,0.5); /*#292929;*/
+             padding: 5px 0; white-space:nowrap; /*font-size:15px;*/}
+nav a:visited { color:#AAAAFF; 
+            background-color: rgba(21,21,21,0.5);
+        }
+nav a:hover   { color:#CCCCCC; background: rgba(68,68,136,0.5);  } 
+nav a:active  { color:grey; 
+            background-color: rgba(21,21,21,0.5);
+    }
+nav li {padding:2px; /*font-size:15px;*/ display:inline;}
+
+nav a:before {content:'['; display:inline; /*font-size:35px;*/ position:relative; top:4px; left:-3px; color:white;}
+nav a:after {content:']'; display:inline; /*font-size:35px;*/ position:relative; top:4px; right:-3px; color:white;}
+
+nav {text-align:center;} /* this doesn't work ARGH WHY NO CENTER?!?!?!? */
+/* nav ul {padding-left:-9px; left:-20px;} */
+nav ul {
+    padding: 0;
+}
+
+span.leftbraces { /*font-size:25pt;*/ padding: 0px 0px; 
+    position:relative; right:-9px;  bottom:-3.75px;}
+span.rightbraces { /*font-size:25pt;*/ padding: 0px 0px; 
+    position:relative; left:-9px;  bottom:-3.75px;}
+
+p.navbar {
+    /* background-color: #090909; */
+    color: white;
+    font-style: normal;
+    font-family: "Georgia";
+    /*font-size:   15px;*/
+    text-align:center;
+    padding-left: -10px;
+    
+}
+
+/*span.skipspace {position:relative; left:-20px; float:right;}*/
+span.skipspace {margin:-8px;}
+
+table.navbar { 
+    padding:0;
+    margin:0;
+    border:0;
+    cellspacing:0;
+    white-space:nowrap;
+    /*font-size:0px;*/
+    display:block;
+    }
+
+td.navbar { margin:-8px; }
+
+/* ASTR3520_site Link Style */
+a.astro:link		{ color:#66FF77; text-shadow: none }
+a.astro:visited	{ color:#44DDBB }
+/* a:visited	{ color:blue }*/
+a.astro:active	{ color:#3344DD }
+a.astro:hover		{ color:#3344FF }
+a.astro {text-decoration: none; }
+
+code {color:#66DD88}
+
+
+/* custom link styles */
+/* I don't think it should be possible to view my stylesheet from the 'net, but if you can, these are fun */
+a.hidden:link		{ color:white; text-shadow: none }
+a.hidden:visited	{ color:white }
+a.hidden:hover		{ color:white }
+a.hidden:active		{ color:white }
+
+a.big:link		{ color:cyan;
+                          text-shadow: none;
+			  font-weight:bold ;
+			  /*font-size:30px ;*/}
+a.big:visited	{ color:cyan ;
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big:hover		{ color:#FF3300; 
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big:active	{ color:#FF3300; 
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big {text-decoration: underline;}				
+
+a.special:link {color:#FF6611; text-shadow:none;}
+a.special:visited {color:#FF6611}
+a.special:hover {color:#FF3322}
+a.special:active {color:#FF3322}
+
+a.offwhite:link		{ color:#DDDDDD;
+                          text-shadow: #999999 0px 0px 2px; }
+a.offwhite:visited	{ color:#DDDDDD ;}
+a.offwhite:hover		{ color:#FF3300;}
+a.offwhite:active	{ color:#FF3300; }
+
+a.norm:link		{ color:cyan ; text-shadow: none; }
+a.norm:visited	{ color:cyan ;}
+a.norm:hover		{ color:#FF3300;}
+a.norm:active	{ color:#FF3300; }
+/*a.norm {text-decoration: underline;}		*/
+
+/* Custom classes */
+.sidebar {
+    /*font-size: 12px;*/
+}
+#sidebar {
+    /*font-size: 14px;*/
+	float: right;
+	/*padding: 10px 15px 5px 0;*/
+	/*text-align: right;*/
+	min-width: 10%; 
+	max-width: 20%; 
+    border:solid #AAAAAA;
+}
+
+ul.recent_header {
+    max-width: 200px;
+}
+
+li.post {
+margin: 0 0 1ex 0;
+}
+/* *** Sidebar Styles *** */
+
+#sidebar h3 {
+	/*font-size: 24px;*/
+	font-weight: normal;
+}
+
+#sidebar ul {
+	line-height: 1.0em;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+#sidebar ul a {
+	text-decoration: none;
+}
+
+.sectionHeader {
+    color: white;
+    /*font-size: 25px;*/
+    font-weight: bold;
+    text-indent: 125px;
+}
+
+.divider {
+    background-color: black;
+    width: 1px;
+}
+
+.divider2 {
+    background-color: black;
+}
+
+.white {
+    color: white;
+    font-style: italic;
+}
+
+.white2 {
+    color: white;
+}
+
+/* custom link styles */
+/* I don't think it should be possible to view my stylesheet from the 'net, but if you can, these are fun */
+a.hidden:link		{ color:white; text-shadow:none }
+a.hidden:visited	{ color:white }
+a.hidden:hover		{ color:white }
+a.hidden:active		{ color:white }
+
+a.emph:tt {color:yellow}
+
+a.big:link		{ color:cyan ; text-shadow:none;
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big:visited	{ color:cyan ;
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big:hover		{ color:#FF3300; 
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big:active	{ color:#FF3300; 
+				font-weight:bold ;
+				/*font-size:30px ;*/}
+a.big {text-decoration: underline;}				
+
+a.norm:link		{ color:cyan; text-shadow:none;}
+a.norm:visited	{ color:cyan ;}
+a.norm:hover		{ color:#FF3300;}
+a.norm:active	{ color:#FF3300; }
+/*a.norm {text-decoration: underline;}		*/
+
+/* Custom classes */
+.sidebar { /*font-size: 15px;*/ }
+.sectionHeader {
+    color: white;
+    /*font-size: 25px;*/
+    font-weight: bold;
+    text-indent: 125px;
+}
+.divider {
+    background-color: black;
+    width: 1px;
+}
+.divider2 {    background-color: black;}
+.white {
+    color: white;
+    font-style: italic;
+}
+.white2 { color: white;}
+.hl-default { color: white;}
+.hl-code { color: white;}
+.hl-brackets { color: white;}
+.hl-comment { color: CornflowerBlue;}
+.hl-quotes { color: Darkred;}
+.hl-string { color: Red;}
+.hl-identifier { color: Cyan;}
+.hl-builtin { color: Teal;}
+.hl-idlbuiltin { color: Green;}
+.hl-reserved { color: SaddleBrown;
+/* color: #aa4444;*/}
+.hl-inlinedoc { color: Blue;}
+.hl-var { color: Darkblue;}
+.hl-url { color: Blue;}
+.hl-special { color: Navy;}
+.hl-number { color: LightBlue;}
+.hl-inlinetags { color: Blue;}
+.hl-main { background-color: Black;}
+.hl-gutter {
+    background-color: #999999;
+    color: White
+}
+.hl-table {
+    font-family: courier;
+    /*font-size: 12px;*/
+    border: solid 1px Lightgrey;
+}
+
+
+/* below copied & pasted from adamginsburg.blogspot.com */
+body {
+/*font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;*/
+color: #cccccc;
+background: #292929 none repeat scroll top left;
+padding: 0 40px 40px 40px;
+}
+.published {
+color: #d2d3d4;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #dd7700;
+}
+a.comment-link:link {
+color: #d8cebf;
+}
+a.comment-link:visited {
+color: #a19b8b;
+}
+a.comment-link:hover {
+color: #ccb086;
+}
+a[itemprop="author"]:link {
+color: #d8cebf;
+}
+a[itemprop="author"]:visited {
+color: #a19b8b;
+}
+a[itemprop="author"]:hover {
+color: #ccb086;
+}
+a[rel="tag"]:link {
+color: #d8cebf;
+}
+a[rel="tag"]:visited {
+color: #a19b8b;
+}
+a[rel="tag"]:hover {
+color: #ccb086;
+}
+a:visited {
+text-decoration:none;
+color: #bb5500;
+}
+a.header:visited {
+    color: inherit;
+}
+a:hover {
+text-decoration:underline;
+color: #cc6600;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #292929 none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 10px;
+}
+.content-inner {
+background-color: #212121;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal bold 42px 'Courier New', Courier, FreeMono, monospace;
+color: #ffffff;
+text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 140%;
+color: #aaaaaa;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 30px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 1px solid #404040;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #404040;
+border-left: 0 solid #404040;
+border-right: 0 solid #404040;
+}
+.tabs-inner .widget ul {
+background: #222222 none repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #404040;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #999999;
+border-left: 1px solid #212121;
+border-right: 0 solid #404040;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #ffffff;
+background-color: #000000;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #404040;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid #404040;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid #404040;
+}
+/* Headings
+----------------------------------------------- 
+h2 {
+margin: 0 0 1em 0;
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+text-transform: uppercase;
+}*/
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+.date-header span {
+background-color: transparent;
+color: #cccccc;
+padding: inherit;
+letter-spacing: inherit;
+margin: inherit;
+}
+.main-inner {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.main-inner .column-center-inner {
+padding: 0 15px;
+}
+.main-inner .column-center-inner .section {
+margin: 0 15px;
+}
+.post {
+margin: 0 0 25px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 0;
+background: #111111;
+border: 1px solid #111111;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 1px;
+}
+.post-body .tr-caption-container {
+color: #cccccc;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #888888;
+background-color: #212121;
+border-bottom: 1px solid #444444;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #404040;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #111111;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #212121;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #404040;
+}
+.blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #212121;
+padding: 5px;
+}
+.footer-outer {
+border-top: 0 dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+padding: 0 40px;
+}
+body.mobile .AdSense {
+margin: 0 -40px;
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #212121;
+}
+.mobile-index-contents {
+color: #cccccc;
+}
+.mobile-link-button {
+background-color: #dd7700;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #000000;
+color: #ffffff;
+border-top: 1px solid #404040;
+border-bottom: 1px solid #404040;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #404040;
+}
+
+
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+/**
+* Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+*/
+/*body { font:13px/1.231 sans-serif; *font-size:small; }*/ /* Hack retained to preserve specificity */
+select, input, textarea, button { font:99% sans-serif; }
+/* Normalize monospace sizing:
+en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+em,i { font-style: italic; }
+b,strong { font-weight: bold; }
+/* Flexible box model classes */
+/* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
+.hbox {
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+-webkit-box-align: stretch;
+display: -moz-box;
+-moz-box-orient: horizontal;
+-moz-box-align: stretch;
+display: box;
+box-orient: horizontal;
+box-align: stretch;
+}
+.hbox > * {
+-webkit-box-flex: 0;
+-moz-box-flex: 0;
+box-flex: 0;
+}
+.vbox {
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-box-align: stretch;
+display: -moz-box;
+-moz-box-orient: vertical;
+-moz-box-align: stretch;
+display: box;
+box-orient: vertical;
+box-align: stretch;
+}
+.vbox > * {
+-webkit-box-flex: 0;
+-moz-box-flex: 0;
+box-flex: 0;
+}
+.reverse {
+-webkit-box-direction: reverse;
+-moz-box-direction: reverse;
+box-direction: reverse;
+}
+.box-flex0 {
+-webkit-box-flex: 0;
+-moz-box-flex: 0;
+box-flex: 0;
+}
+.box-flex1, .box-flex {
+-webkit-box-flex: 1;
+-moz-box-flex: 1;
+box-flex: 1;
+}
+.box-flex2 {
+-webkit-box-flex: 2;
+-moz-box-flex: 2;
+box-flex: 2;
+}
+.box-group1 {
+-webkit-box-flex-group: 1;
+-moz-box-flex-group: 1;
+box-flex-group: 1;
+}
+.box-group2 {
+-webkit-box-flex-group: 2;
+-moz-box-flex-group: 2;
+box-flex-group: 2;
+}
+.start {
+-webkit-box-pack: start;
+-moz-box-pack: start;
+box-pack: start;
+}
+.end {
+-webkit-box-pack: end;
+-moz-box-pack: end;
+box-pack: end;
+}
+.center {
+-webkit-box-pack: center;
+-moz-box-pack: center;
+box-pack: center;
+}
+
+
+/**
+* Primary styles
+*
+* Author: IPython Development Team
+body {
+overflow: hidden;
+}
+*/
+span#save_widget {
+padding: 5px;
+margin: 0px 0px 0px 300px;
+display:inline-block;
+}
+span#notebook_name {
+height: 1em;
+line-height: 1em;
+padding: 3px;
+border: none;
+font-size: 146.5%;
+}
+.ui-menubar-item .ui-button .ui-button-text {
+padding: 0.4em 1.0em;
+font-size: 100%;
+}
+.ui-menu {
+-moz-box-shadow:    0px 6px 10px -1px #adadad;
+-webkit-box-shadow: 0px 6px 10px -1px #adadad;
+box-shadow:         0px 6px 10px -1px #adadad;
+}
+.ui-menu .ui-menu-item a {
+border: 1px solid transparent;
+padding: 2px 1.6em;
+}
+.ui-menu .ui-menu-item a.ui-state-focus {
+margin: 0;
+}
+.ui-menu hr {
+margin: 0.3em 0;
+}
+#menubar_container {
+position: relative;
+}
+#notification_area {
+position: absolute;
+right: 0px;
+top: 0px;
+height: 25px;
+padding: 3px 0px;
+padding-right: 3px;
+z-index: 10;
+}
+.notification_widget{
+float : right;
+right: 0px;
+top: 1px;
+height: 25px;
+padding: 3px 6px;
+z-index: 10;
+}
+.toolbar {
+padding: 3px 15px;
+}
+#cell_type {
+font-size: 85%;
+}
+div#main_app {
+width: 100%;
+position: relative;
+}
+span#quick_help_area {
+position: static;
+padding: 5px 0px;
+margin: 0px 0px 0px 0px;
+}
+.help_string {
+float: right;
+width: 170px;
+padding: 0px 5px;
+text-align: left;
+font-size: 85%;
+}
+.help_string_label {
+float: right;
+font-size: 85%;
+}
+div#notebook_panel {
+margin: 0px 0px 0px 0px;
+padding: 0px;
+}
+div#notebook {
+overflow-y: scroll;
+overflow-x: auto;
+width: 100%;
+/* This spaces the cell away from the edge of the notebook area */
+padding: 5px 5px 15px 5px;
+margin: 0px;
+background-color: white;
+}
+div#pager_splitter {
+height: 8px;
+}
+#pager_container {
+position : relative;
+}
+div#pager {
+padding: 15px;
+overflow: auto;
+display: none;
+}
+div.ui-widget-content {
+border: 1px solid #aaa;
+outline: none;
+}
+.cell {
+border: 1px solid transparent;
+}
+div.cell {
+width: 100%;
+padding: 5px 5px 5px 0px;
+/* This acts as a spacer between cells, that is outside the border */
+margin: 2px 0px 2px 0px;
+}
+div.code_cell {
+background-color: white;
+}
+/* any special styling for code cells that are currently running goes here */
+div.code_cell.running {
+}
+div.prompt {
+/* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+width: 11ex;
+/* This 0.4em is tuned to match the padding on the CodeMirror editor. */
+padding: 0.4em;
+margin: 0px;
+font-family: monospace;
+text-align:right;
+}
+div.input {
+page-break-inside: avoid;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+color: black;
+border: 1px solid #ddd;
+border-radius: 3px;
+background: #f7f7f7;
+}
+div.input_prompt {
+color: navy;
+border-top: 1px solid transparent;
+}
+div.output_wrapper {
+/* This is a spacer between the input and output of each cell */
+margin-top: 5px;
+margin-left: 5px;
+/* FF needs explicit width to stretch */
+width: 100%;
+/* this position must be relative to enable descendents to be absolute within it */
+position: relative;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+/* ideally, this would be max-height, but FF barfs all over that */
+height: 24em;
+/* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+width: 100%;
+overflow: auto;
+border-radius: 3px;
+box-shadow: inset 0 2px 8px rgba(0, 0, 0, .8);
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+margin-right: 5px;
+}
+div.out_prompt_overlay {
+height: 100%;
+padding: 0px;
+position: absolute;
+border-radius: 3px;
+}
+div.out_prompt_overlay:hover {
+/* use inner shadow to get border that is computed the same on WebKit/FF */
+box-shadow: inset 0 0 1px #000;
+background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+color: darkred;
+/* 5px right shift to account for margin in parent container */
+margin: 0 5px 0 -5px;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+padding: 0px;
+page-break-inside: avoid;
+}
+/* This class is for the output subarea inside the output_area and after
+the prompt div. */
+div.output_subarea {
+padding: 0.44em 0.4em 0.4em 1px;
+}
+/* The rest of the output_* classes are for special styling of the different
+output types */
+/* all text output has this class: */
+div.output_text {
+text-align: left;
+color: black;
+font-family: monospace;
+}
+/* stdout/stderr are 'text' as well as 'stream', but pyout/pyerr are *not* streams */
+div.output_stream {
+padding-top: 0.0em;
+padding-bottom: 0.0em;
+}
+div.output_stdout {
+}
+div.output_stderr {
+background: #fdd; /* very light red background for stderr */
+}
+div.output_latex {
+text-align: left;
+color: black;
+}
+div.output_html {
+}
+div.output_png {
+}
+div.output_jpeg {
+}
+div.text_cell {
+background-color: white;
+padding: 5px 5px 5px 5px;
+}
+div.text_cell_input {
+color: black;
+border: 1px solid #ddd;
+border-radius: 3px;
+background: #f7f7f7;
+}
+div.text_cell_render {
+font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+outline: none;
+resize: none;
+width:  inherit;
+border-style: none;
+padding: 5px;
+color: black;
+}
+/* The following gets added to the <head> if it is detected that the user has a
+* monospace font with inconsistent normal/bold/italic height.  See
+* notebookmain.js.  Such fonts will have keywords vertically offset with
+* respect to the rest of the text.  The user should select a better font.
+* See: https://github.com/ipython/ipython/issues/1503
+*
+* .CodeMirror span {
+*      vertical-align: bottom;
+* }
+*/
+.CodeMirror {
+line-height: 1.231;  /* Changed from 1em to our global default */
+}
+.CodeMirror-scroll {
+height: auto;     /* Changed to auto to autogrow */
+/*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+/*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+overflow-y: hidden;
+overflow-x: auto; /* Changed from auto to remove scrollbar */
+}
+/* CSS font colors for translated ANSI colors. */
+.ansiblack {color: black;}
+.ansired {color: darkred;}
+.ansigreen {color: darkgreen;}
+.ansiyellow {color: brown;}
+.ansiblue {color: darkblue;}
+.ansipurple {color: darkviolet;}
+.ansicyan {color: steelblue;}
+.ansigrey {color: grey;}
+.ansibold {font-weight: bold;}
+.completions {
+position: absolute;
+z-index: 10;
+overflow: hidden;
+border: 1px solid grey;
+}
+.completions select {
+background: white;
+outline: none;
+border: none;
+padding: 0px;
+margin: 0px;
+overflow: auto;
+font-family: monospace;
+}
+option.context {
+background-color: #DEF7FF;
+}
+option.introspection {
+background-color: #EBF4EB;
+}
+/*fixed part of the completion*/
+.completions p b {
+font-weight:bold;
+}
+.completions p {
+background: #DDF;
+/*outline: none;
+padding: 0px;*/
+border-bottom: black solid 1px;
+padding: 1px;
+font-family: monospace;
+}
+pre.dialog {
+background-color: #f7f7f7;
+border: 1px solid #ddd;
+border-radius: 3px;
+padding: 0.4em;
+padding-left: 2em;
+}
+p.dialog {
+padding : 0.2em;
+}
+.shortcut_key {
+display: inline-block;
+width: 15ex;
+text-align: right;
+font-family: monospace;
+}
+.shortcut_descr {
+}
+#fonttest {
+font-family: monospace;
+}
+.js-error {
+color: darkred;
+}
+
+.rendered_html {color: black;}
+.rendered_html em {font-style: italic;}
+.rendered_html strong {font-weight: bold;}
+.rendered_html u {text-decoration: underline;}
+.rendered_html :link { text-decoration: underline }
+.rendered_html :visited { text-decoration: underline }
+.rendered_html h1 {font-size: 197%; margin: .65em 0; font-weight: bold;}
+.rendered_html h2 {font-size: 153.9%; margin: .75em 0; font-weight: bold;}
+.rendered_html h3 {font-size: 123.1%; margin: .85em 0; font-weight: bold;}
+.rendered_html h4 {font-size: 100% margin: 0.95em 0; font-weight: bold;}
+.rendered_html h5 {font-size: 85%; margin: 1.5em 0; font-weight: bold;}
+.rendered_html h6 {font-size: 77%; margin: 1.65em 0; font-weight: bold;}
+.rendered_html ul {list-style:disc; margin: 1em 2em;}
+.rendered_html ul ul {list-style:square; margin: 0em 2em;}
+.rendered_html ul ul ul {list-style:circle; margin-left: 0em 2em;}
+.rendered_html ol {list-style:upper-roman; margin: 1em 2em;}
+.rendered_html ol ol {list-style:upper-alpha; margin: 0em 2em;}
+.rendered_html ol ol ol {list-style:decimal; margin: 0em 2em;}
+.rendered_html ol ol ol ol {list-style:lower-alpha; margin: 0em 2em;}
+.rendered_html ol ol ol ol ol {list-style:lower-roman; margin: 0em 2em;}
+.rendered_html hr {
+color: black;
+background-color: black;
+}
+.rendered_html pre {
+margin: 1em 2em;
+}
+.rendered_html blockquote {
+margin: 1em 2em;
+}
+.rendered_html table {
+border: 1px solid black;
+border-collapse: collapse;
+margin: 1em 2em;
+}
+.rendered_html td {
+border: 1px solid black;
+text-align: left;
+vertical-align: middle;
+padding: 4px;
+}
+.rendered_html th {
+border: 1px solid black;
+text-align: left;
+vertical-align: middle;
+padding: 4px;
+font-weight: bold;
+}
+.rendered_html tr {
+border: 1px solid black;
+}
+.rendered_html p + p {
+margin-top: 1em;
+}
+
+/* Overrides of notebook CSS for static HTML export
+body {
+overflow: visible;
+padding: 8px;
+}
+*/
+.input_area {
+padding: 0.4em;
+}
+
+
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1000px;
+max-width: 1000px;
+_width: 1000px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 200px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 200px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("200px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 200px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 200px;
+margin-right: -200px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+
+div.entry-content {
+    max-width: 80%;
+}
+
+/* have to override mathjax defaults */
+.MathJax .mo, .MathJax .mi {
+    color: inherit !important;
+}
+
+pre.literal-block {
+    /*min-width:800px;*/
+    overflow-x: scroll;
+    white-space: pre;
+}
+
+/* Word-wrap output correctly.  This is the CSS3 spelling, though Firefox seems
+to not honor it correctly.  Webkit browsers (Chrome, rekonq, Safari) do.
+*/
+pre, code, kbd, samp { white-space: pre-wrap; }
+
+div.typeset div.MathJax_Display {
+    text-align: left;
+}
+
+span#math { 
+    text-align: left;
+}
+
+.MathJax_Display {
+text-align: left !important;
+}
+

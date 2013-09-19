@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="http://astropy.org/astroquery-blog/theme/css/style.css" />
+<link rel="icon" type="image/gif" href="http://astropy.org/astroquery-blog/theme/favicon8.ico">
+<head>
+    <base href="http://astropy.org/astroquery-blog">
+                <title>Astroquery Blog</title>
+        <meta charset="utf-8" />
+                <link href="http://astropy.org/astroquery-blog//feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Astroquery Blog Full Atom Feed" />
+                                                                        <!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    styles: {
+    ".MathJax .mo, .MathJax .mi": {color: "inherit !important"}},
+    'div.typeset': { 'text-align': 'left'}
+    },
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],processEscapes: true}
+    });
+    TeX: {
+        extensions: ["AMSmath.js", "AMSsymbols.js"]
+    }
+    MathJax.Hub.Register.StartupHook("HTML-CSS Jax Ready",function () {
+    var VARIANT = MathJax.OutputJax["HTML-CSS"].FONTDATA.VARIANT;
+    VARIANT["normal"].fonts.unshift("MathJax_SansSerif");
+    VARIANT["bold"].fonts.unshift("MathJax_SansSerif-bold");
+    VARIANT["italic"].fonts.unshift("MathJax_SansSerif-italic");
+    VARIANT["-tex-mathit"].fonts.unshift("MathJax_SansSerif-italic");
+    });
+    MathJax.Hub.Register.StartupHook("SVG Jax Ready",function () {
+    var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;
+    VARIANT["normal"].fonts.unshift("MathJax_SansSerif");
+    VARIANT["bold"].fonts.unshift("MathJax_SansSerif-bold");
+    VARIANT["italic"].fonts.unshift("MathJax_SansSerif-italic");
+    VARIANT["-tex-mathit"].fonts.unshift("MathJax_SansSerif-italic");
+    });
+</script>
+
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
+        
+</head>
+
+<body id="base" class="home">
+
+
+    <header id="banner" class="body" >
+        <div id="header" style='background-image: url("http://astropy.org/astroquery-blog/static/"); background-position:left; min-heigt: 200px;  background-repeat: no-repeat; max-width: 80%;'>
+            <h1 style="color: #C4C4C4;"><a class="header" href="http://astropy.org/astroquery-blog">Astroquery Blog <strong>Releases and examples related to astroquery</strong></a></h1>
+
+            <nav id="menu"><ul id="menulist">
+                                                              </ul></nav><!-- /#menu -->
+        </div>
+    </header><!-- /#banner -->
+
+   <div id="sidebar">
+    <ul>
+  	  	        	  	          <li>
+        <h3 id='recent_header'>Recent Posts</h3>
+        <ul>
+                          <li class="post">
+                  2013/09/18
+                  <br>
+                  <a href="http://astropy.org/astroquery-blog/beta-release.html">Beta Release</a>
+              </li>
+                    </ul>
+      </li>
+        
+    </ul>
+  </div><!-- end #sidebar -->
+ 
+  <div id="content">
+        <h1>Archives for Astroquery Blog</h1>
+
+<dl>
+    <dt>2013/09/18</dt>
+    <dd><a href="http://astropy.org/astroquery-blog/beta-release.html">Beta Release</a></dd>
+</dl>
+  </div>
+        <footer id="contentinfo" class="body">
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>
