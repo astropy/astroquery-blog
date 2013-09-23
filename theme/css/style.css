@@ -1,6 +1,6 @@
 @import url("pygment.css");
 body {
-	background-color: #292929;
+	background-color: #111111;
 	color: white;
 	font-style: normal;
 	font-family: "Times New Roman";
@@ -16,6 +16,7 @@ body {
     margin-bottom: 2%;
     padding : 1em ;
     /*margin : 5% 10% ;*/
+    /*padding: 0 40px 40px 40px;*/
 }
 
 div#content {
@@ -68,7 +69,7 @@ h5 { font-size: 150%; }
 h6 { font-size: 125%; }
 
 pre {
-    margin : 2em 1em 2em 4em ;
+    margin : 0px; /*2em 1em 2em 4em ;*/
 }
 
 #menu li {
@@ -114,7 +115,6 @@ p {
 
 
 div {
-    background-color: #292929;
     color: white;
 	font-family: "Times New Roman";
 	font-style: normal;
@@ -144,7 +144,7 @@ a.navbar:before {content:'['; display:inline; /*font-size:25pt;*/ color:white; p
 a.navbar:after {content:']'; display:inline; /*font-size:25pt;*/ color:white; position:relative; right:-3px; top:3.5px}
 
 nav a:link    { color:#AAAAFF; text-decoration:none; 
-            background-color: rgba(21,21,21,0.5); /*#292929;*/
+            background-color: rgba(21,21,21,0.5); /*#111111;*/
              padding: 5px 0; white-space:nowrap; /*font-size:15px;*/}
 nav a:visited { color:#AAAAFF; 
             background-color: rgba(21,21,21,0.5);
@@ -257,6 +257,7 @@ a.norm:active	{ color:#FF3300; }
 	min-width: 10%; 
 	max-width: 20%; 
     border:solid #AAAAAA;
+    background-color: #222;
 }
 
 ul.recent_header {
@@ -385,12 +386,6 @@ a.norm:active	{ color:#FF3300; }
 
 
 /* below copied & pasted from adamginsburg.blogspot.com */
-body {
-/*font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;*/
-color: #cccccc;
-background: #292929 none repeat scroll top left;
-padding: 0 40px 40px 40px;
-}
 .published {
 color: #d2d3d4;
 }
@@ -401,13 +396,13 @@ width: auto;
 }
 a:link {
 text-decoration:none;
-color: #dd7700;
+color: #8E9EF1;
 }
 a.comment-link:link {
 color: #d8cebf;
 }
 a.comment-link:visited {
-color: #a19b8b;
+color: #F1BB8E;
 }
 a.comment-link:hover {
 color: #ccb086;
@@ -432,7 +427,7 @@ color: #ccb086;
 }
 a:visited {
 text-decoration:none;
-color: #bb5500;
+color: #F1BB8E;
 }
 a.header:visited {
     color: inherit;
@@ -450,7 +445,7 @@ position: absolute;
 z-index: 1;
 height: 400px;
 width: 100%;
-background: #292929 none repeat scroll top left;
+background: transparent none repeat scroll top left;
 }
 .body-fauxcolumn-outer .cap-top .cap-left {
 width: 100%;
@@ -591,7 +586,6 @@ position: relative;
 .post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
 .BlogList .item-thumbnail img {
 padding: 0;
-background: #111111;
 border: 1px solid #111111;
 -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
 -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
@@ -933,7 +927,7 @@ margin: 0px 0px 0px 0px;
 padding: 0px;
 }
 div#notebook {
-overflow-y: scroll;
+overflow-y: auto;
 overflow-x: auto;
 width: 100%;
 /* This spaces the cell away from the edge of the notebook area */
@@ -1290,6 +1284,7 @@ width: auto;
 
 div.entry-content {
     max-width: 80%;
+    background: transparent;
 }
 
 /* have to override mathjax defaults */
@@ -1297,10 +1292,18 @@ div.entry-content {
     color: inherit !important;
 }
 
+div.highlight {
+    background-color: #222;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+}
+
 pre.literal-block {
     /*min-width:800px;*/
-    overflow-x: scroll;
+    overflow-x: auto; /* was scroll, but this looks ugly - white bars everywhere.   Sun Sep 22 09:46:45 MDT 2013 */
     white-space: pre;
+    background: transparent;
 }
 
 /* Word-wrap output correctly.  This is the CSS3 spelling, though Firefox seems
@@ -1319,4 +1322,3 @@ span#math {
 .MathJax_Display {
 text-align: left !important;
 }
-

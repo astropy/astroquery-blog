@@ -13,7 +13,8 @@ color:#007020;
 font-weight:bold;
 }
 .o {
-color:#666666;
+color:#AAAAAA;
+/*color:#666666;*/
 }
 .cm {
 color:#408090;
@@ -72,7 +73,8 @@ color:#007020;
 font-weight:bold;
 }
 .kn {
-color:#007020;
+/*color:#007020;*/
+    color:#01A831;
 font-weight:bold;
 }
 .kp {
@@ -89,7 +91,8 @@ color:#902000;
 color:#208050;
 }
 .s {
-color:#4070A0;
+/*color:#4070A0;*/
+color:#4E8CCA;
 }
 .na {
 color:#4070A0;
@@ -116,7 +119,8 @@ font-weight:bold;
 color:#007020;
 }
 .nf {
-color:#06287E;
+/*color:#06287E;*/
+color: #7B9FFA;
 }
 .nl {
 color:#002070;
@@ -141,13 +145,15 @@ font-weight:bold;
 color:#BBBBBB;
 }
 .mf {
-color:#208050;
+/*color:#208050;*/
+color:#51BE62;
 }
 .mh {
 color:#208050;
 }
 .mi {
-color:#208050;
+/*color:#208050;*/
+color:#1FC270;
 }
 .mo {
 color:#208050;
@@ -189,7 +195,8 @@ color:#4070A0;
 color:#517918;
 }
 .bp {
-color:#007020;
+color:#1EBB00;
+/*color:#007020;*/
 }
 .vc {
 color:#BB60D5;
