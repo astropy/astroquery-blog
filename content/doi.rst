@@ -1,5 +1,8 @@
 Astroquery has a DOI
 ====================
+:date: 2013-09-23
+:author: Adam Ginsburg (astropy.astroquery@gmail.com)
+:tags: doi, publication
 
 A `DOI`_ (or "Digital Object Identifier) is a URL-like pointer to a particular
 permanent object.  Astroquery v0.1, `released this past week`_, now has a DOI
