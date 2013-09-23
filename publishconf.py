@@ -20,5 +20,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # because apparently nothing works in pelican...
 RELATIVE_URLS = False
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "astroqueryblog"
 GOOGLE_ANALYTICS = "UA-43950915-2"

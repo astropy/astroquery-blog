@@ -30,7 +30,8 @@ DEFAULT_PAGINATION = 10
 #THEME='bootstrap2' # sneakyidea is default
 #THEME='waterspill-en' 
 #THEME='simple_editable' 
-THEME='mine'
+#THEME='mine'
+THEME='pelican-octopress-theme'
  
 STATIC_PATHS = ['images']
 
