@@ -14,7 +14,7 @@ providing the DOI (http://dx.doi.org/10.6084/m9.figshare.805208).
 
 Figshare will generate a new DOI for each new version released, e.g. if we add
 a new author, release a bugfix tarball, etc.  This flexibility makes it
-preferable to single-version publications like papers and fora.  These issues
+preferable to single-version publications like papers and fora.  `These issues`_
 are `actively`_ `discussed`_, so feedback is welcome.
 
 
@@ -23,4 +23,4 @@ are `actively`_ `discussed`_, so feedback is welcome.
 .. _figshare: http://figshare.com/articles/Astroquery_v0_1/805208
 .. _actively: https://twitter.com/aagie/status/340219539423907841
 .. _discussed: http://carlboettiger.info/2013/06/03/DOI-citable.html
-
+.. _These issues: http://gael-varoquaux.info/blog/?p=170
